@@ -1,0 +1,15 @@
+Order Number: 1
+Customer: lee
+Email: lee@mail.com
+Phone number: 083 241 9895
+Location: Johannesburg
+
+You have ordered the following from Lupa in Johannesburg:
+2 x Pasta (R69,99 each) - Total: R139,98
+Special instructions: None
+Total: R139,98
+
+Eisa Wilson is nearest to the restaurant and will be delivering your order to: 
+Johannesburg
+
+If you need to contact the restaurant, their number is 011 234 5678.
