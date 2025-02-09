@@ -11,7 +11,7 @@ public class FindBestDriver {
     Driver bestDriver = null;
     List<Driver> drivers = new ArrayList<>();
 
-    try (BufferedReader reader = new BufferedReader(new FileReader("drivers.txt"))) {
+    try (BufferedReader reader = new BufferedReader(new FileReader("drivers-info.txt"))) {
       String line;
       while ((line = reader.readLine()) != null) {
         String[] details = line.split(", ");
