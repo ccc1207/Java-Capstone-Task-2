@@ -2,10 +2,7 @@ package quickFood;
 
 import java.util.Map;
 
-/**
- * Represents a customer's order, including details about the customer, 
- * restaurant, ordered meals, total amount, and any special instructions.
- */
+/** Represents a customer's order, including details about the customer, restaurant, ordered meals, total amount, and any special instructions.*/
 
 
 public class Order {
