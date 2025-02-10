@@ -1,6 +1,12 @@
 package quickFood;
 
 import java.io.BufferedWriter;
+
+/**
+ * The GenerateInvoice class is responsible for generating a customer invoice 
+ * and saving it to a text file.
+ */
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.DecimalFormat;
