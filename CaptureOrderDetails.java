@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+/**
+ * The CaptureOrderDetails class handles capturing order details from user input.
+ */
+
 public class CaptureOrderDetails {
   public static Order getOrderDetails(Scanner scanner, Customer customer, Restaurant restaurant) {
     Map<String, Integer> mealQuantities = new HashMap<>();
