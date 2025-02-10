@@ -6,22 +6,58 @@ import java.util.Map;
  * Represents a customer's order, including details about the customer, 
  * restaurant, ordered meals, total amount, and any special instructions.
  */
-
 public class Order {
-  Customer customer;
-  Restaurant restaurant;
-  Map<String, Integer> mealQuantities;
-  Map<String, Double> mealPrices;
-  double totalAmount;
-  String specialInstructions;
+    private Customer customer;               // Customer placing the order
+    private Restaurant restaurant;           // Restaurant fulfilling the order
+    private Map<String, Integer> mealQuantities; // Meal names with their quantities
+    private Map<String, Double> mealPrices;      // Meal names with their prices per unit
+    private double totalAmount;              // Total cost of the order
+    private String specialInstructions;      // Any special instructions for the order
 
-  public Order(Customer customer, Restaurant restaurant, Map<String, Integer> mealQuantities,
-      Map<String, Double> mealPrices, double totalAmount, String specialInstructions) {
-    this.customer = customer;
-    this.restaurant = restaurant;
-    this.mealQuantities = mealQuantities;
-    this.mealPrices = mealPrices;
-    this.totalAmount = totalAmount;
-    this.specialInstructions = specialInstructions;
-  }
+    /**
+     * Constructor to initialize an Order object.
+     *
+     * @param customer          The customer placing the order.
+     * @param restaurant        The restaurant fulfilling the order.
+     * @param mealQuantities    A map containing meal names as keys and their respective quantities as values.
+     * @param mealPrices        A map containing meal names as keys and their respective prices as values.
+     * @param totalAmount       The total price of the order.
+     * @param specialInstructions Any additional instructions for the order.
+     */
+    public Order(Customer customer, Restaurant restaurant, 
+                 Map<String, Integer> mealQuantities, Map<String, Double> mealPrices, 
+                 double totalAmount, String specialInstructions) {
+        this.customer = customer;
+        this.restaurant = restaurant;
+        this.mealQuantities = mealQuantities;
+        this.mealPrices = mealPrices;
+        this.totalAmount = totalAmount;
+        this.specialInstructions = specialInstructions;
+    }
+
+    // Getter methods for encapsulation
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public Restaurant getRestaurant() {
+        return restaurant;
+    }
+
+    public Map<String, Integer> getMealQuantities() {
+        return mealQuantities;
+    }
+
+    public Map<String, Double> getMealPrices() {
+        return mealPrices;
+    }
+
+    public double getTotalAmount() {
+        return totalAmount;
+    }
+
+    public String getSpecialInstructions() {
+        return specialInstructions;
+    }
 }
