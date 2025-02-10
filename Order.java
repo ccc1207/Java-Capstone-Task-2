@@ -7,12 +7,12 @@ import java.util.Map;
  * restaurant, ordered meals, total amount, and any special instructions.
  */
 public class Order {
-    private Customer customer;               // Customer placing the order
-    private Restaurant restaurant;           // Restaurant fulfilling the order
-    private Map<String, Integer> mealQuantities; // Meal names with their quantities
-    private Map<String, Double> mealPrices;      // Meal names with their prices per unit
-    private double totalAmount;              // Total cost of the order
-    private String specialInstructions;      // Any special instructions for the order
+    public Customer customer;               // Customer placing the order
+    public Restaurant restaurant;           // Restaurant fulfilling the order
+    public Map<String, Integer> mealQuantities; // Meal names with their quantities
+    public Map<String, Double> mealPrices;      // Meal names with their prices per unit
+    public double totalAmount;              // Total cost of the order
+    public String specialInstructions;      // Any special instructions for the order
 
     /**
      * Constructor to initialize an Order object.
