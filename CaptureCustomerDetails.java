@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * The CaptureCustomerDetails class handles capturing customer details from user input.
  */
+
 public class CaptureCustomerDetails {
 
     /**

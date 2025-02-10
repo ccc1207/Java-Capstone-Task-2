@@ -7,6 +7,7 @@ import java.util.Scanner;
 /**
  * The CaptureOrderDetails class handles capturing order details from user input.
  */
+
 public class CaptureOrderDetails {
 
     /**

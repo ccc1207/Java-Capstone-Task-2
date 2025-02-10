@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * The CaptureRestaurantDetails class is responsible for capturing restaurant details from user input.
  */
+
 public class CaptureRestaurantDetails {
 
     /**

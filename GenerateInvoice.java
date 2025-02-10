@@ -9,6 +9,7 @@ import java.text.DecimalFormat;
  * The GenerateInvoice class is responsible for generating a customer invoice 
  * and saving it to a text file.
  */
+
 public class GenerateInvoice {
 
     /**
