@@ -5,6 +5,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.text.DecimalFormat;
 
+/**
+ * The GenerateInvoice class is responsible for generating a customer invoice 
+ * and saving it to a text file.
+ */
+
 public class GenerateInvoice {
   public static void createInvoice(Order order, Driver driver) {
     DecimalFormat df = new DecimalFormat("0.00");

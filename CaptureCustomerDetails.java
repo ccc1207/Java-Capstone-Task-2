@@ -2,6 +2,10 @@ package quickFood;
 
 import java.util.Scanner;
 
+/**
+ * The CaptureCustomerDetails class handles capturing customer details from user input.
+ */
+
 public class CaptureCustomerDetails {
   public static Customer getCustomerDetails(Scanner scanner) {
     System.out.print("Enter Order Number: ");
